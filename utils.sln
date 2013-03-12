@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utils", "utils\utils.vcproj", "{30622121-0770-466C-AFD6-CD3B3354887F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unitest", "unitest\unitest.vcproj", "{5D38F4A1-A43C-4488-830B-EEACD2E0980B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{30622121-0770-466C-AFD6-CD3B3354887F} = {30622121-0770-466C-AFD6-CD3B3354887F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30622121-0770-466C-AFD6-CD3B3354887F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30622121-0770-466C-AFD6-CD3B3354887F}.Debug|Win32.Build.0 = Debug|Win32
+		{30622121-0770-466C-AFD6-CD3B3354887F}.Release|Win32.ActiveCfg = Release|Win32
+		{30622121-0770-466C-AFD6-CD3B3354887F}.Release|Win32.Build.0 = Release|Win32
+		{5D38F4A1-A43C-4488-830B-EEACD2E0980B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D38F4A1-A43C-4488-830B-EEACD2E0980B}.Debug|Win32.Build.0 = Debug|Win32
+		{5D38F4A1-A43C-4488-830B-EEACD2E0980B}.Release|Win32.ActiveCfg = Release|Win32
+		{5D38F4A1-A43C-4488-830B-EEACD2E0980B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
